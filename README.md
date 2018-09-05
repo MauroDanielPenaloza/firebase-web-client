@@ -1,4 +1,4 @@
-# Configuración de ambiente 
+# Configuración de ambiente Firebase + Webpack
 ## Pasos iniciales de instalacion
 1. Instalar Node.js
 1. npm install -g webpack-cli (Instalar webpack-cli globalmente)
