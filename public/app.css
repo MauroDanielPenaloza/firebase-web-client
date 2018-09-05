@@ -1,0 +1,25 @@
+.column-style {
+    border-style: double;
+    padding: 9px;
+    display: inline-block;
+    text-align: center;
+}
+.div-btn {
+    margin-top:2em;
+} 
+.sub-title {
+    text-align: center;
+    text-decoration-line: underline;
+}
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 48%;
+    padding: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

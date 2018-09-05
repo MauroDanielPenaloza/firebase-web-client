@@ -1,0 +1,20 @@
+{
+  "name": "firebase-web-client",
+  "version": "1.0.0",
+  "description": "Cliente de Firebase de PDC",
+  "main": "index.js",
+  "scripts": {
+    "deploy":"npx webpack --config webpack.config.js && firebase deploy && start https://tuguru-30b49.firebaseapp.com",
+    "build":"npx webpack -p --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "firebase": "^5.3.1"
+  }
+}

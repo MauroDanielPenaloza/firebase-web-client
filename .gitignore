@@ -1,0 +1,4 @@
+node_modules/
+public/main.js
+.firebaserc
+package-lock.json
